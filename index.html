@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Merna Karam Abdallah — AI, Machine Learning & Data Science Portfolio">
+  <title>Merna Karam Abdallah — AI Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="neuralCanvas" aria-hidden="true"></canvas>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="logo" href="#home" aria-label="Merna home">M<span>.</span>K</a>
+    <nav id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" aria-label="Toggle theme">☾</button>
+      <button id="menuToggle" class="menu-btn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <div class="status"><span></span> Open to AI / ML opportunities</div>
+        <p class="eyebrow">AI ENGINEERING · MACHINE LEARNING · DATA SCIENCE</p>
+        <h1>Engineering <em>intelligence</em><br>from data.</h1>
+        <p class="hero-text">
+          I'm <strong>Merna Karam Abdallah</strong> — an aspiring AI Engineer
+          building practical solutions across Machine Learning, Deep Learning, NLP, Computer Vision, and Robotics.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects">Explore Projects <span>↗</span></a>
+          <a class="btn ghost" href="Merna_Karam_Abdallah_CV.pdf" target="_blank">View CV</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/merna-2" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/merna-karam-abdallah" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="mailto:mernakaram834@gmail.com">Email ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="ai-ring ring-a"></div>
+        <div class="ai-ring ring-b"></div>
+        <div class="ai-core">
+          <div class="core-grid"></div>
+          <div class="core-symbol">AI</div>
+          <div class="core-orbit orbit-a"></div>
+          <div class="core-orbit orbit-b"></div>
+        </div>
+        <div class="floating-chip chip-a">Python</div>
+        <div class="floating-chip chip-b">TensorFlow</div>
+        <div class="floating-chip chip-c">Scikit-learn</div>
+        <div class="floating-chip chip-d">NLP</div>
+      </div>
+    </section>
+
+    <div class="ticker">
+      <div class="ticker-track">
+        <span>PYTHON</span><i>✦</i><span>MACHINE LEARNING</span><i>✦</i><span>DEEP LEARNING</span><i>✦</i><span>NLP</span><i>✦</i><span>COMPUTER VISION</span><i>✦</i><span>ROBOTICS</span><i>✦</i>
+        <span>PYTHON</span><i>✦</i><span>MACHINE LEARNING</span><i>✦</i><span>DEEP LEARNING</span><i>✦</i><span>NLP</span><i>✦</i><span>COMPUTER VISION</span><i>✦</i><span>ROBOTICS</span><i>✦</i>
+      </div>
+    </div>
+
+    <section id="about" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 — PROFILE</p>
+        <h2>From curiosity to <span>working models.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text glass reveal">
+          <div class="mini-label">/ about_me.py</div>
+          <p>
+            I have a strong foundation in Computer Science and Artificial Intelligence from
+            <strong>Benha National University</strong>, with a GPA of <strong>3.66/4.00</strong>.
+          </p>
+          <p>
+            My experience covers the Machine Learning pipeline — from data preprocessing and
+            feature engineering to model training, hyperparameter tuning, and evaluation.
+          </p>
+          <p>
+            I enjoy solving practical problems with data and experimenting with models across
+            NLP, Deep Learning, Computer Vision, Robotics, and Data Science.
+          </p>
+        </div>
+        <div class="stats reveal">
+          <div class="stat glass"><strong>3.66</strong><span>GPA / 4.00</span><small>Academic performance</small></div>
+          <div class="stat glass"><strong>7+</strong><span>Projects</span><small>Applied technical work</small></div>
+          <div class="stat glass"><strong>5</strong><span>AI Areas</span><small>ML · DL · NLP · CV · Robotics</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section dark-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 — STACK</p>
+        <h2>Tools I use to <span>build.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-top"><span class="skill-icon">Py</span><span class="level-tag">Advanced</span></div><h3>Python & Data</h3><p>Python · Pandas · NumPy · Data Analysis</p><div class="bar"><b style="width:95%"></b></div></article>
+        <article class="skill-card reveal"><div class="skill-top"><span class="skill-icon">ML</span><span class="level-tag">Advanced</span></div><h3>Machine Learning</h3><p>Scikit-learn · Feature Engineering · Evaluation · Tuning</p><div class="bar"><b style="width:95%"></b></div></article>
+        <article class="skill-card reveal"><div class="skill-top"><span class="skill-icon">NN</span><span class="level-tag">Proficient</span></div><h3>Deep Learning</h3><p>Neural Networks · CNN · TensorFlow</p><div class="bar"><b style="width:75%"></b></div></article>
+        <article class="skill-card reveal"><div class="skill-top"><span class="skill-icon">NLP</span><span class="level-tag">Proficient</span></div><h3>NLP</h3><p>Text Preprocessing · Tokenization · Text Classification</p><div class="bar"><b style="width:75%"></b></div></article>
+        <article class="skill-card reveal"><div class="skill-top"><span class="skill-icon">CV</span><span class="level-tag">Proficient</span></div><h3>Computer Vision</h3><p>OpenCV · Image Processing · Image Classification</p><div class="bar"><b style="width:75%"></b></div></article>
+        <article class="skill-card reveal"><div class="skill-top"><span class="skill-icon">SQL</span><span class="level-tag">Proficient</span></div><h3>SQL & Statistics</h3><p>SQL · Probability · Linear Algebra · Descriptive & Inferential Statistics</p><div class="bar"><b style="width:75%"></b></div></article>
+        <article class="skill-card reveal"><div class="skill-top"><span class="skill-icon">RB</span><span class="level-tag">Familiar</span></div><h3>Robotics</h3><p>Autonomous Systems · Self-Driving Robot Simulation</p><div class="bar"><b style="width:55%"></b></div></article>
+        <article class="skill-card reveal"><div class="skill-top"><span class="skill-icon">WEB</span><span class="level-tag">Proficient</span></div><h3>Web & Tools</h3><p>HTML · CSS · JavaScript · Git · GitHub · Colab · Jupyter</p><div class="bar"><b style="width:75%"></b></div></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 — SELECTED WORK</p>
+        <h2>Projects with <span>measurable results.</span></h2>
+        <p class="section-sub">Applied work across classification, prediction, vision, and autonomous systems.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card featured reveal">
+          <div class="project-glow"></div>
+          <div class="project-image-wrap"><img src="assets/projects/fraud-detection-confusion-matrix.jpg" alt="XGBoost confusion matrix for the job posting fraud detection model"></div>
+          <div class="project-top"><span class="tag">01 / NLP</span><span class="arrow">↗</span></div>
+          <h3>Job Posting<br><em>Fraud Detection</em></h3>
+          <p>Designed an NLP classification system using text preprocessing, tokenization, feature extraction, and multiple ML classifiers.</p>
+          <div class="metric-row"><div><strong>98%</strong><span>Accuracy</span></div><div><strong>78%</strong><span>Fraud F1</span></div><div><strong>81%</strong><span>Fraud Recall</span></div></div>
+          <div class="tech"><span>Python</span><span>NLP</span><span>Scikit-learn</span><span>Random Forest</span><span>XGBoost</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image-wrap"><img src="assets/projects/purchase-prediction-performance.jpg" alt="Model performance comparison chart for the e-commerce purchase prediction models"></div>
+          <div class="project-top"><span class="tag">02 / ML</span><span class="arrow">↗</span></div>
+          <h3>E-Commerce Customer<br><em>Purchase Prediction</em></h3>
+          <p>End-to-end ML pipeline for customer purchase behavior with preprocessing, feature engineering, statistical analysis, training, and evaluation.</p>
+          <div class="metric-row"><div><strong>85%</strong><span>Accuracy</span></div><div><strong>74.9%</strong><span>Recall</span></div><div><strong>59.7%</strong><span>F1</span></div></div>
+          <div class="tech"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image-wrap"><img src="assets/projects/sign-language-confusion-matrix.jpg" alt="Confusion matrix for the sign language digit classification CNN model"></div>
+          <div class="project-top"><span class="tag">03 / DEEP LEARNING</span><span class="arrow">↗</span></div>
+          <h3>Sign Language Digit<br><em>Classification</em></h3>
+          <p>CNN built in TensorFlow for sign language digit classification, with architecture and hyperparameter iteration.</p>
+          <div class="metric-row"><div><strong>93%</strong><span>Test</span></div><div><strong>88%</strong><span>Validation</span></div><div><strong>98%</strong><span>Training</span></div></div>
+          <div class="tech"><span>TensorFlow</span><span>CNN</span><span>Python</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image-wrap"><img src="assets/projects/self-driving-robot-sim.jpg" alt="AutoBot self-driving robot simulation interface showing path planning"></div>
+          <div class="project-top"><span class="tag">04 / ROBOTICS</span><span class="arrow">↗</span></div>
+          <h3>Self-Driving Robot<br><em>Simulation</em></h3>
+          <p>Sensor-based autonomous navigation simulation with environmental data processing for real-time movement decisions.</p>
+          <div class="feature-line"><span>◉</span> Autonomous navigation</div>
+          <div class="feature-line"><span>◉</span> Sensor-based decisions</div>
+          <div class="tech"><span>Robotics</span><span>Autonomous Systems</span><span>Simulation</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image-wrap"><img src="assets/projects/image-processing-filters.jpg" alt="Grid of image processing filter results: brightness, negative, thresholding, blurring, edge detection, and noise/restoration filters"></div>
+          <div class="project-top"><span class="tag">05 / COMPUTER VISION</span><span class="arrow">↗</span></div>
+          <h3>Image Processing<br><em>Project</em></h3>
+          <p>Image analysis project applying image processing and transformation techniques with Python and OpenCV.</p>
+          <div class="feature-line"><span>◉</span> Image analysis</div>
+          <div class="feature-line"><span>◉</span> Transformations</div>
+          <div class="tech"><span>Python</span><span>OpenCV</span><span>Image Processing</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image-wrap"><img src="assets/projects/freshcart-ecommerce-site.jpg" alt="FreshCart e-commerce web app login screen"></div>
+          <a class="project-top" href="https://github.com/merna-2/E-commers" target="_blank" rel="noreferrer"><span class="tag">06 / FRONT-END</span><span class="arrow">↗</span></a>
+          <h3>FreshCart<br><em>E-Commerce App</em></h3>
+          <p>Full front-end e-commerce web app with authentication, product browsing, cart, wishlist, and checkout flow.</p>
+          <div class="feature-line"><span>◉</span> Auth, cart & wishlist</div>
+          <div class="feature-line"><span>◉</span> Category & product browsing</div>
+          <div class="tech"><span>React</span><span>Vite</span><span>Tailwind CSS</span><span>React Query</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-image-wrap"><img src="assets/projects/genetic-maze-algorithm.jpg" alt="Genetic Maze Algorithm interface showing generation stats and a solved path"></div>
+          <div class="project-top"><span class="tag">07 / AI OPTIMIZATION</span><span class="arrow">↗</span></div>
+          <h3>Genetic Maze<br><em>Algorithm</em></h3>
+          <p>Maze-solving agent built with a genetic algorithm, evolving move sequences across generations toward the goal.</p>
+          <div class="feature-line"><span>◉</span> Generation-based evolution</div>
+          <div class="feature-line"><span>◉</span> Fitness-driven pathfinding</div>
+          <div class="tech"><span>Python</span><span>Genetic Algorithms</span><span>Optimization</span></div>
+        </article>
+      </div>
+      <div class="center reveal"><a class="btn secondary" href="https://github.com/merna-2" target="_blank" rel="noreferrer">Explore GitHub <span>↗</span></a></div>
+    </section>
+
+    <section id="experience" class="section dark-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 — EXPERIENCE</p>
+        <h2>Learning by <span>building.</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-content"><span class="date">JUL 2026 — PRESENT</span><h3>Machine Learning Trainee <small>DEPI</small></h3><p>Training in applied Machine Learning as part of the Digital Egypt Pioneers Initiative.</p></div></div>
+        <div class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-content"><span class="date">2026</span><h3>AI & Data Analysis Trainee <small>TechTrek</small></h3><p>Hands-on training in preprocessing, feature engineering, model training, evaluation, Machine Learning, and Artificial Intelligence.</p></div></div>
+        <div class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-content"><span class="date">2025</span><h3>AI Trainee <small>Huawei HCIA Training</small></h3><p>Training covering data preprocessing, data analysis, Machine Learning, Deep Learning, and Computer Vision.</p></div></div>
+        <div class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-content"><span class="date">2023 — 2027</span><h3>B.Sc. Computer Science & AI <small>Benha National University</small></h3><p>Cairo, Egypt · Fourth Year · GPA 3.66/4.00</p></div></div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 — CERTIFICATIONS</p>
+        <h2>Certifications <span>& training.</span></h2>
+      </div>
+      <div class="cert-grid cert-grid-full">
+        <article class="cert-card glass reveal">
+          <div class="cert-image-wrap"><img src="assets/techtrek-certificate.jpg" alt="TechTrek Artificial Intelligence professional training certificate"></div>
+          <div class="cert-info"><span class="date">2026 · 64 HOURS</span><h3>Artificial Intelligence — TechTrek</h3><p>Professional training · Online</p></div>
+        </article>
+        <article class="cert-card glass reveal">
+          <div class="cert-image-wrap"><img src="assets/huawei-nti-ai-certificate.jpg" alt="NTI / Huawei Egyptian Talent Academy Artificial Intelligence certificate"></div>
+          <div class="cert-info"><span class="date">2025 · 80 HOURS · SCORE 96%</span><h3>AI Track — NTI / Huawei Egyptian Talent Academy</h3><p>Applied training program, not a certification exam</p></div>
+        </article>
+        <article class="cert-card glass reveal">
+          <div class="cert-image-wrap"><img src="assets/frontend-route-certificate.jpg" alt="Route IT Training Center Front-End Development diploma certificate"></div>
+          <div class="cert-info"><span class="date">2025</span><h3>Front-End Development Diploma</h3><p>Route IT Training Center</p></div>
+        </article>
+        <div class="cert-list">
+          <div class="cert-item reveal"><span>2026</span><div><h3>Convolutional Neural Networks (CNN)</h3><p>Training / Course</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section manifesto">
+      <div class="manifesto-box reveal">
+        <div class="mini-label">/ current_goal.txt</div>
+        <h2>Build. Learn. <span>Iterate.</span></h2>
+        <p>Looking for opportunities in AI, Machine Learning, or Data Science where I can turn technical knowledge into real-world impact.</p>
+        <div class="scanline"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">06 — CONTACT</p>
+        <h2>Let's build something <span>intelligent.</span></h2>
+        <p class="section-sub">Open to AI/ML opportunities, collaborative projects, and conversations around AI and Machine Learning.</p>
+      </div>
+      <div class="contact-card">
+        <a href="mailto:mernakaram834@gmail.com" class="reveal"><span>01 / EMAIL</span><strong>mernakaram834@gmail.com</strong><b>↗</b></a>
+        <a href="https://github.com/merna-2" target="_blank" rel="noreferrer" class="reveal"><span>02 / GITHUB</span><strong>github.com/merna-2</strong><b>↗</b></a>
+        <a href="https://www.linkedin.com/in/merna-karam-abdallah" target="_blank" rel="noreferrer" class="reveal"><span>03 / LINKEDIN</span><strong>linkedin.com/in/merna-karam-abdallah</strong><b>↗</b></a>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Merna Karam Abdallah</span><span>AI · ML · DATA SCIENCE</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
